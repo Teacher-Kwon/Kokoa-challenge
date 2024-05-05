@@ -31,9 +31,22 @@
   position: absolute;
   top: -10px;
   left: 12px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__li {
   display: flex;
   justify-content: space-between;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
 }
