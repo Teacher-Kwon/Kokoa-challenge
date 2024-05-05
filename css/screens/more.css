@@ -1,0 +1,69 @@
+#more .user-component__data__subtitle {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#more .user-component__data__subtitle i {
+  margin-left: 10px;
+}
+
+#more .user-component__column:nth-child(2) {
+  color: black;
+}
+
+#more .user-component {
+  margin-bottom: 40px;
+}
+
+#more .Find-icon__icons div {
+  font-size: 14px;
+}
+
+#more .Find-icon__icons i {
+  margin-bottom: 20px;
+}
+
+.Find-icon__2 {
+  display: flex;
+  margin: 25px 20px;
+  padding-top: 10px;
+}
+
+.Find-icon__2 .Find-icon__icons {
+  margin-right: 20px;
+}
+
+.suggestions {
+  margin: 10px 20px;
+  border: 90%;
+  border-top: 1px solid rgb(0, 0, 0, 0.4);
+}
+
+.suggestions__contents__apps img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+.suggestions__title {
+  padding: 20px 0px;
+}
+
+.suggestions__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestions__contents__apps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+#more .user-component {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,133 @@
+#Seacrch .header__icons {
+  width: 20%;
+}
+
+.Find-icon {
+  display: flex;
+  margin: 25px 20px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.Find-icon__icons {
+  height: 20%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Find-icon__icons i {
+  margin-bottom: 30px;
+}
+
+.Find-icon__icons div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 25px;
+}
+
+.Recomended-Friends {
+  width: 90%;
+  margin: 0 20px;
+  border-top: 1px solid rgb(0, 0, 0, 0.1);
+  color: rgb(0, 0, 0, 0.4);
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.no-Friends {
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0, 0.4);
+}
+
+.Recomended-Friends__text:nth-child(2) {
+  color: rgb(0, 0, 0, 0.2);
+}
+
+.chat-list {
+  margin-bottom: 70px;
+  overflow-y: scroll;
+  height: 230px;
+}
+
+.chat-list__box {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.chat-list__box__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0px;
+  line-height: 1.5;
+}
+
+.chat-list__box__info__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.chat-list__box__info__subtitle {
+  color: rgb(0, 0, 0, 0.4);
+}
+
+.chat-list__box__info__members {
+  font-size: 13px;
+}
+
+.chat-list__box__info__members__number {
+  color: rgb(0, 0, 0, 0.4);
+  padding-right: 5px;
+  margin-right: 5px;
+  border-right: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.chat-list__box__info__members__Active {
+  color: rgb(207, 15, 207);
+}
+
+.chat-list__box__img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+}
+
+.chat-list__box__info__members img {
+  height: 15px;
+  width: 15px;
+  border-radius: 30%;
+  margin-right: 5px;
+}
+
+.chat-list__box__img {
+  position: relative;
+}
+
+.chat-list__box__like {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3px 10px;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 50%;
+  border-radius: 8px;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.fa-heart {
+  font-size: 12px;
+}

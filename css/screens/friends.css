@@ -1,0 +1,67 @@
+.friends-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+  width: 100%;
+  color: rgb(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0, 0.05);
+}
+
+.friends-display i {
+  margin-right: 5px;
+}
+
+.friends-display span {
+  margin-right: 5px;
+  color: black;
+}
+
+.friends-screen__channel {
+  color: rgb(0, 0, 0, 0.4);
+  display: flex;
+  font-size: 13px;
+  margin: 5px 20px;
+  padding: 5px;
+  align-items: center;
+  border: none;
+  border-top: 1px solid rgb(0, 0, 0, 0.2);
+  justify-content: space-between;
+}
+
+.user-component__data__title[value="channel"] {
+  font-weight: normal;
+}
+
+#Friends .user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-chevron-right {
+  padding: 0px 5px;
+}
+
+@keyframes hideSplashScreen {
+  form {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+}

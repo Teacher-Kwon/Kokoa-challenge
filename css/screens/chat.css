@@ -1,0 +1,39 @@
+#Chat .user-component__data {
+  display: flex;
+  flex-direction: column;
+}
+
+#Chat .header__icons {
+  width: 40%;
+}
+
+#Chat .user-component__column__info {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#Chat .user-component__column:nth-child(2) {
+  flex-direction: column;
+  width: 30px;
+}
+
+#chat .user-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Chat a {
+  margin-right: 50px;
+}
+
+#Chat .nav a {
+  margin-right: 0px;
+}
